@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogadores</title>
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+    <div id="login" class="login-tela">
+        <div class="login-conteudo">
+            <h2>Atletas do Botafogo em 2023-2</h2>
+            <div>Criado com objetivo exclusivamente didático para a disciplina Desenvolvimento Web</div>
+        </div>
+        <div class="login-entrada">
+            <div class="input-entrada">
+                <form onsubmit="event.preventDefault(); login()">
+                    <input type="text" placeholder="Informe a senha">
+                    <button type="submit">ENTRAR</button>
+                </form>
+            </div>
+            <div>Efetue login com a senha: SENHA</div>
+        </div>
+    </div>
+
+
+    <div id="app" class="esconder">
+        <h1 class="titulo">Elemenco profissional</h1>
+        <div id="feminino">
+            <h2 class="subtitulo">Elenco feminino</h2>
+            <div class="conteudo"></div>
+        </div>
+        <div id="masculino">
+            <h2 class="subtitulo">Elenco masculino</h2>
+            <div class="conteudo"></div>
+        </div>
+    </div>
+
+    <script src="assets/jogadores2023.js"></script>
+    <script src="src/index.js"></script>
+</body>
+</html>
